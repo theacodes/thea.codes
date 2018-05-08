@@ -42,6 +42,7 @@ body {
 .cover-container {
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2em;
 }
 
 /* Padding for spacing */
@@ -93,10 +94,6 @@ code {
  * Affix and center
  */
 
-.cover-container {
-  padding-top: 80px;
-}
-
 @media (min-width: 768px) {
   /* Start the vertical centering */
   .site-wrapper-inner {
@@ -106,14 +103,20 @@ code {
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
-
-  .cover-container {
-    padding-top: 0px;
-  }
 }
 
 @media (min-width: 992px) {
   .cover-container {
     width: 920px;
+  }
+}
+
+
+@media(max-width: 768px) {
+  h1, p {
+    text-align: center;
+  }
+  .links {
+    margin-top: 2em;
   }
 }

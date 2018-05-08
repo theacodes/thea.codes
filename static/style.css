@@ -9,6 +9,11 @@ a:hover {
   color: #63c8f6;
 }
 
+a:hover {
+  color: #41b990;
+  text-decoration: none;
+}
+
 .hidden {
   display: none;
 }
@@ -84,9 +89,13 @@ code {
 
 
 .links a,
-.links a:focus,
-.links a:hover {
+.links a:focus {
   color: #41b990;
+}
+
+.links a:hover {
+  color: #63c8f6;
+  text-decoration: none;
 }
 
 

@@ -130,3 +130,45 @@ code {
     font-size: 1.5em;
   }
 }
+
+/* Stuff page */
+body.stuff h1 {
+  margin-bottom: 2rem;
+}
+
+body.stuff h2 {
+  color: #8768bb;
+  font-size: 1.6rem;
+}
+
+body.stuff dl {
+  margin-top: 3rem;
+}
+
+body.stuff dl p {
+  margin-bottom: 1rem;
+}
+
+body.stuff dd {
+  margin-bottom: 2rem;
+}
+
+body.stuff dt {
+  font-family: 'Roboto Mono', monospace;
+}
+
+body.stuff a.calltoaction,  body.stuff a.calltoaction:focus {
+  color: #41b990;
+  display: block;
+}
+
+body.stuff a.calltoaction:hover {
+  color: #63c8f6;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  h1, p {
+    text-align: left;
+  }
+}

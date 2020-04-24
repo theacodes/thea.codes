@@ -133,10 +133,11 @@ code {
 
 /* Stuff page */
 body.stuff h1 {
-  margin-bottom: 2rem;
+  margin-top: 10rem;
 }
 
 body.stuff h2 {
+  margin-top: 5rem;
   color: #8768bb;
   font-size: 1.6rem;
 }

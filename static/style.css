@@ -6,7 +6,7 @@
 a,
 a:focus,
 a:hover {
-  color: #63c8f6;
+  color: #e25e6a;
 }
 
 a:hover {
@@ -25,7 +25,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background: #fff;
+  background: #d7eaec;
   font-family: 'Roboto Mono', monospace;
 }
 body {
@@ -76,7 +76,7 @@ body {
 }
 
 h1 {
-  color: #c35b7d;
+  color: #265483;
 }
 
 code {
@@ -90,11 +90,11 @@ code {
 
 .links a,
 .links a:focus {
-  color: #41b990;
+  color: #00999b;
 }
 
 .links a:hover {
-  color: #63c8f6;
+  color: #e25e6a;
   text-decoration: none;
 }
 

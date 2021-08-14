@@ -2,6 +2,8 @@
  * Globals
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 /* Links */
 a,
 a:focus,
@@ -26,7 +28,7 @@ html,
 body {
   height: 100%;
   background: #d7eaec;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Nunito', sans-serif;
 }
 body {
   color: #333;
